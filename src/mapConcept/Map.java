@@ -1,0 +1,28 @@
+package mapConcept;
+
+/*
+
+-->MAP
+--USED TO STORE PAIR OF OBJECT.
+--IT USED TO STORE KEY-VALUE PAIR OBJECT
+--KEY IS MAPPED TO VALUE
+--KEY IS AN INDEX TO GET VALUE
+--KEY CAN BE ANY OBJECT,BUT NOT NULL
+--VALUE CAN BE ANY OBJECT,NOT DUPLICTAE
+
+
+-->THERE ARE THREE TYPE OF MAP
+  
+     --HASHMAP
+     --HASHTABLE
+     --HASHMAP
+
+*/
+public class Map 
+{
+
+	public static void main(String[] args) 
+	{
+		
+	}
+}

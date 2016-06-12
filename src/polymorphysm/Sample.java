@@ -1,0 +1,92 @@
+package polymorphysm;
+
+/*-->POLYMORPHYSM
+ * 
+ * AN OBJECT SHOWING DIFFERENT BEHAVIUOR AT DIFFERENT STAGES OF ITS LIFE CYCLE
+ * IS KNOWN AS POLYMORPHYSM.
+ * 
+ *-->TWO TYPES OF POLYMORPHYSM
+ *        1.COMPILETIME POLYMORPHYSM
+ *        2.RUNTIME POLYMORPHYSM 
+ * 
+ *-->COMPILETIME POLYMORPHYSM
+ *
+ * IN COMPILETIME POLYMORPHYSM METHOD DECLARATION IS BINDED TO METHOD IMPLEMENTATION
+ * AT THE TIME OF  COMPILATION BY COMPILER.
+ * 
+ * THIS TYPE OF BINDING IS KNOWN AS STATIC BINDING OR EARLY BINDING.
+ * 
+ * THE COMPILE TIME BINDING HAPPEN FOR STATIC METHOD,FINAL METHOD AND 
+ * OVERLOAD METHOD.
+ * 
+ * THE BINDING DONE AT COMPILE TIME CAN NOT BE RE-BINDED.
+ * 
+ * -->EXAMPLE OF COMPILETIME POLYMORPHYSM
+ *   ~METHOD OVERLOADING
+ *   ~CONSTRUCTOR OVERLOADING
+ *   ~STATIC METHOD AND FINAL METHOD
+ * 
+ * 
+ * -->RUNTIME POLYMORPHYSM
+ * 
+ *  IN RUNTIME POLYMORPHYSM METHOD BODY IS BINDED TO METHOD IMPLEMENTATION AT
+ *  RUNTIME BASED ON INSTANCE CREATED.
+ *  
+ *  THIS TYPE OF BINDING KNOWN AS DYNAMIC BINDING OR LATE BINDING.
+ *  
+ *  METHOD OVERRIDING IS EXAMPLE OF RUNTIME POLYMORPHYSM.
+ *  
+ *  TO ACHIEVE RUNTIME POLYMORPHYSM WE NEED TO FULLFELL FOLLOWING CONCEPT
+ *   1.INHERITANCE
+ *   2.METHOD OVERRIDING
+ *   3.UPCASTING
+ *   
+ *   WITH THE HELP OF RUNTIME POLYMORPHYSM U CAN ACHIEVE
+ *    -GENERALIZATION
+ *    -ABSTRACTION
+ *    -LOOSE COUPLING
+ * 
+ */
+
+//this is a example of polymorphysm
+
+class Demo1
+{
+
+	void test()
+	{
+		System.out.println("hiiiiiiiiiii");
+	}
+	
+}
+
+
+class Sample1 extends Demo1
+{
+
+	void test()
+	{
+		System.out.println("bbyeeeeee");
+	}
+	
+}
+
+public class Sample 
+{
+
+	public static void main(String[] args) 
+	{
+	
+
+		System.out.println("**********************");
+		
+		
+		Sample1 obj1=new Sample1();
+		//sample1 object have property of both class Demo1 and Ssample1
+		
+		obj1.test();//here always overridden method is called.
+		
+		System.out.println("***********************");
+	}
+	
+}
