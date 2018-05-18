@@ -7,7 +7,7 @@ public class StringA {
 
 		System.out.println("in java String is a class");
 
-		//here String is class.it is immutable.
+		//here String is class. it is immutable.
 		
 		String name="bhavesh";//only one object is created. 
 		

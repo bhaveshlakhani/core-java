@@ -26,7 +26,7 @@ public class Array {
 		 b[3]=12;
 		// b[4]=12;  error array index out of bound
 	 
-		for(int i=0;i<4;i++)
+		for(int i=0;i<b.length;i++)
 		{
 			System.out.println(b[i]);
 		}
