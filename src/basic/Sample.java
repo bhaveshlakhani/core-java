@@ -5,7 +5,7 @@ public class Sample {
 	public static void main(String[] args)
 	{
 
-	System.out.println("hii this is bhavesh lakhani");	
+	System.out.println("hii this is bhavesh BHAVESH");	
 	
 	System.out.println("i love \"java\" programing ");
 	

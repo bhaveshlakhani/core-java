@@ -49,18 +49,6 @@ public class DataTypecasting
 	 
 	 
 	 System.out.println("***************************");
-
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
 	 
  }
  

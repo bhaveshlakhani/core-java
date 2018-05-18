@@ -57,6 +57,7 @@ public class Upcasting
 	  
 	  System.out.println("k value: "+obj1.k);
 	  obj1.test();
+	 
 	  
 	  //obj1.disp();//error because its subclass property
 	  
